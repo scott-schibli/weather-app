@@ -3,7 +3,7 @@ Simple Weather Application that displays a 7 day forecast of the users current c
 
 # Project set-up
 - take a look at package.json for dependencies
-- must have npm, node, typescript (and several more), axios, express, body-parser
+- run npm install
 - dev must have gulp and gulp-sass
 
 To start the application and run 'node app.js' run: 
