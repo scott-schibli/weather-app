@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!-- <base href="/"> -->
+
+    <title>Weather App</title>
+    <!--build:css css/styles.min.css-->
+      <link rel="stylesheet" href="css/basic-styles.css">
+      <link rel="stylesheet" href="css/main-styles.css">
+      <link rel="stylesheet" href="css/section-2-styles.css">
+      <link rel="stylesheet" href="css/dailyweather.css">
+      <link rel="stylesheet" href="css/error.css">
+    <!--endbuild-->
+  </head>
+  <body>
+    <div id="root">
+      <section class="top-banner">
+        <div class="container">
+          <h1 class="heading">Simple Weather App</h1>
+          <form method="post" action="/get_weather_data">
+            <input type="text" name='location' placeholder="Search for a city" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+        </div>
+      </section>
+        {{{body}}}
+    </div>
+  </body>
+  
+</html>

@@ -1,0 +1,23 @@
+
+<section class="axios-section">
+    <div class="container">
+      <h1 class="axios-section-header">{{{data.[0].address}}}</h1>
+      <ul class="weekdays">
+        {{#each data}}
+            <li class="weekday">
+                <h2 class="day-name" data-name="...">
+                  <span>{{this.day}}</span>
+                </h2>
+                <span class="day-temp">{{this.temp}}<sup>°F</sup></span>
+                <figure>
+
+                  <img class="weather-icon" src="{{{this.icon}}}" alt="...">
+                  <figcaption>{{this.description}}</figcaption>
+                </figure>
+              </li>  
+        {{/each}}
+          
+      </ul>
+    </div>
+</section>
+  

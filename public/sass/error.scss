@@ -1,0 +1,29 @@
+.error-section{
+    margin: 50px 0 20px;
+    color: white;
+}
+
+.error-section .error-section-header{
+    font-size: 4rem;
+    color: var(--darkred);
+    margin-bottom: 20px;
+    display: grid;
+}
+   
+  @media screen and (max-width: 1000px) { 
+    .error-section .axios-section-header{
+      font-size: 3.5rem;
+    }
+  }
+   
+  @media screen and (max-width: 700px) {
+    .error-section .axios-section-header {
+      font-size: 3rem;
+    }
+  }
+   
+  @media screen and (max-width: 500px) {  
+    .error-section .axios-section-header{
+      font-size: 2rem;
+    }
+  }

@@ -1,0 +1,41 @@
+.axios-section {
+    margin: 50px 0 20px;
+    color: white;
+  }
+  .axios-section-header{
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+   
+  .axios-section .weekdays {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+   
+  @media screen and (max-width: 1000px) { 
+    .axios-section .weekdays{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .axios-section-header{
+      font-size: 3.5rem;
+    }
+  }
+   
+  @media screen and (max-width: 700px) {
+    .axios-section .weekdays {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .axios-section-header {
+      font-size: 3rem;
+    }
+  }
+   
+  @media screen and (max-width: 500px) {  
+    .axios-section .weekdays {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .axios-section-header{
+      font-size: 2rem;
+    }
+  }
