@@ -14,6 +14,5 @@ To start the application and run 'node app.js' run:
 
 # Notes: 
 When the app is launced locally there is a reverse IP look up that retrieves the visitors current location. 
-On the Heroku hosted server, the IP look up retrieves the location of the server... Ashburn, Virginia. This is happenning becuase the api call to ip-api.com is occuring on the server end. 
-
+On the Heroku hosted server, the IP look up retrieves the location of the server... Ashburn, Virginia. This is happenning becuase the api call to ip-api.com is occuring on the server end.
 
