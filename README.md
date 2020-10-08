@@ -12,7 +12,21 @@ To start the application and run 'node app.js' run:
 
 -there is also a live hosted version at https://shrouded-island-15806.herokuapp.com/
 
+# Stack:
+- express
+- typsescipt (note: must run 'tsc' after making changes to typescript files. 
+- Sass/Scss
+- gulp to pipe to CSS
+- handlebars for templating
+
+# Dev: 
+- run 'gulp sass' after making changes to scss files.
+- run 'tsc' after making changes to .ts files.
+
 # Notes: 
+
+*I wrote all javascript related files in typescript (.ts) and then ran 'tsc' in terminal to compile into normal .js. Please looks at tyepscript files when reviewing code for readability etc and comments... *
+
 When the app is launced locally there is a reverse IP look up that retrieves the visitors current location. 
 On the Heroku hosted server, the IP look up retrieves the location of the server... Ashburn, Virginia. This is happenning becuase the api call to ip-api.com is occuring on the server end.
 
