@@ -8,7 +8,7 @@ Simple Weather Application that displays a 7 day forecast of the users current c
 - run npm start
 - go to localhost:8888
 
--there is also a live hosted version at https://shrouded-island-15806.herokuapp.com/
+-there is also a live hosted version at https://floating-cliffs-27014.herokuapp.com/
 
 # Stack:
 - Express
