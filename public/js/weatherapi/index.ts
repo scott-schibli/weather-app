@@ -6,7 +6,7 @@ import {LocationData, DaysWeather} from '../interfaces';
 const dayOfTheWeekMap = {
     0: 'Sunday',
     1: 'Monday',
-    2: 'Teusday',
+    2: 'Tuesday',
     3: 'Wednesday',
     4: 'Thursday',
     5: 'Friday',
