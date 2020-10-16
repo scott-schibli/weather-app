@@ -5,9 +5,7 @@ Simple Weather Application that displays a 7 day forecast of the users current c
 - take a look at package.json for dependencies
 - run npm install
 - dev must have gulp and gulp-sass
-
-To start the application and run 'node app.js' run: 
-- npm start 
+- run npm start
 - go to localhost:8888
 
 -there is also a live hosted version at https://shrouded-island-15806.herokuapp.com/
